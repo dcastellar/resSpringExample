@@ -10,7 +10,7 @@
 	<properties>
 		<springframework.version>4.3.4.RELEASE</springframework.version>
 		<springsecurity.version>4.2.2.RELEASE</springsecurity.version>
-		<jackson.version>2.8.11.1</jackson.version>
+		<jackson.version>[2.8.11,)</jackson.version>
 	</properties>
 
 	<dependencies>
@@ -28,7 +28,7 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot</artifactId>
-			<version>1.5.4.RELEASE</version>
+			<version>[1.5.10,)</version>
 		</dependency>
 
 		<!-- Spring Security -->
